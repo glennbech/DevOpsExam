@@ -1,6 +1,6 @@
 version = 0.1
 [default.deploy.parameters]
-stack_name = "devOps2001"
+stack_name = "devOps2001-glenn"
 resolve_s3 = true
 s3_prefix = "devOps2001"
 region = "eu-west-1"

@@ -68,7 +68,7 @@ jobs:
           echo 'terraform {
             backend "s3" {
               bucket = "kandidatnm2001"
-              key    = "terraform.tfstate"
+              key    = "terraform-sensor.tfstate"
               region = "eu-west-1"
             }
           }' > main.tf

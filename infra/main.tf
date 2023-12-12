@@ -1,7 +1,7 @@
 variable "service_name" {
   description = "Navnet på App Runner-tjenesten"
   type        = string
-  default     = "terraform2001" 
+  default     = "sensor-2001"
 }
 
 resource "aws_iam_role" "role_for_apprunner_service" {
